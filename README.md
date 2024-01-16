@@ -9,8 +9,8 @@ This Python script takes the raw Visual Studio Code Github Copilot chat log and 
 ## How to Use
 
 1. Export a Copilot Chat session to a JSON file via `Ctrl+Shift+P | Chat: Export Session...` or by choosing `View > Command Palette | Chat: Export Session...`
-2. Place this chat.json file in the same folder as the `sandbox.py` file.
-3. Open command prompt in this folder and run `python sandbox.py`.
+2. Place this chat.json file in the same folder as the `format_chat_log.py` file.
+3. Open command prompt in this folder and run `python format_chat_log.py`.
 4. This gives you the formatted chat logs in a .md file in that same folder.
 
 ## Script Arguments
@@ -22,7 +22,7 @@ You can customize the output format and content with the following arguments:
 - `-requests`: Only output requests, not responses.
 - `-anon`: Omit requester and responder usernames.
 
-For example, to format the chat log in HTML and only output requests, run `python sandbox.py -html -requests`.
+For example, to format the chat log in HTML and only output requests, run `python format_chat_log.py -html -requests`.
 
 ## Functionality
 
